@@ -9,7 +9,7 @@ library(ggnewscale)
 library(randomNames)  # for generating random names
 library(randomcoloR) # for generating random colors
 
-#Create some fake data
+#Create some fake data with random names and ranomly chosen percentile values (0 to 1) for 8 variables
 
 player.data=data.frame(
   Player = randomNames(20, name.order="first.last", name.sep=" "),
